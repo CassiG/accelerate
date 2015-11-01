@@ -11,3 +11,9 @@
 */
 
 @import url("../accelerate-theme/style.css");
+
+/* Home Page Styles */
+
+.blog-post {
+	width: 50%;
+	}
