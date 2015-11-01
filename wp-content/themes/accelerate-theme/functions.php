@@ -28,3 +28,7 @@
 
 register_nav_menu('top-nav', 'Top Nav');
 register_nav_menu('social-media', 'Social Media Nav');
+function new_excerpt_more( $more ) {
+	return '...';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
