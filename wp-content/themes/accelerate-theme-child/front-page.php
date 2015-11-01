@@ -32,7 +32,7 @@ get_header(); ?>
     <div class="site-content">
     	<div class="blog-post">
         
-        <h4>From the Blog</h4> <!-- custom blog call -->
+        <h4 class="home-title">From the Blog</h4> <!-- custom blog call -->
         <?php query_posts('posts_per_page=1'); ?>
         <?php while ( have_posts() ) : the_post(); ?>
         
