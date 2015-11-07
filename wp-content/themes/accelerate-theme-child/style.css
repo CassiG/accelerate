@@ -39,9 +39,54 @@
 	font-weight: bold;
 	}
 .blog-post .read-more-link {
-	font size: 2rem; 
+	font-size: 2rem;
 	font-family: 'Montserrat';
 	font-weight: bold; 
 	color: #45ac9d;
 	text-transform:uppercase;
 	}
+
+	/* Case Studies Page Styles */
+
+aside.case-study-sidebar {
+    float: left;
+    padding-right: 20px;
+    margin-top: 70px;
+    font-weight: 300;
+    width: 45%;
+	}
+
+aside h2 {
+	font-size: 2rem;
+    line-height: 1px;
+}
+
+aside h5 {
+	font-size: 1rem;
+	font-weight: 300;
+    color: #a6a6a6;
+    line-height: 1px;
+}
+
+aside h6{
+	font-size: 1rem;
+	font-weight: 300;
+	color:#000;
+    margin-bottom: 20px;
+}
+
+aside a{
+	font-size: 1rem;
+	font-weight: bold;
+	color:#000;
+    line-height: 1px;
+}
+
+div.case-study-img {
+	float:left;
+	margin-top: 70px;
+	width: 45%;	
+}
+div.case-study-img img{
+	padding-bottom: 20px;
+}
