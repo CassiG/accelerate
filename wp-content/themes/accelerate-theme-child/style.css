@@ -27,26 +27,57 @@
 .blog-post {
 	width: 50%;
 	}
+	
 .blog-post .home-title {
 	font-size: 1rem;
 	font-family: 'Montserrat';
 	color: #a6a6a6;
 	text-transform: uppercase;
 	}
+	
 .blog-post h2 {
 	font-size: 2rem;
 	font-family: 'Montserrat';
 	font-weight: bold;
+	line-height: 70px;
 	}
+	
 .blog-post .read-more-link {
-	font-size: 2rem;
+	font-size: 1rem;
 	font-family: 'Montserrat';
 	font-weight: bold; 
 	color: #45ac9d;
 	text-transform:uppercase;
 	}
 
-	/* Case Studies Page Styles */
+/* Homepage Feature Image */
+
+.homepage-featured-work {
+	padding-bottom: 50px;
+	}
+
+.featured-work .home-title {
+	text-align:center;
+	margin-top: -70px;
+    padding: 50px;
+	}
+
+ul.homepage-featured-work {
+	float:left;
+	}
+
+.featured-work h3 {
+	font-size:18px;
+	line-height: 1px;
+	text-align: center;
+	font-family: 'Montserrat';
+	}
+	
+.homepage-featured-work li {
+	list-style-type: none;
+	}
+
+/* Case Studies Page Styles */
 
 aside.case-study-sidebar {
     float: left;
