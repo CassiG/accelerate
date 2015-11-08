@@ -12,6 +12,17 @@
 
 @import url("../accelerate-theme/style.css");
 
+/* Site Styles */
+.menu-top-nav-container ul {
+	display: block;
+    float: left;
+    width: 300px;
+	}
+
+.menu-top-nav-container ul li {
+	float: left;
+    padding-right: 20px;
+	}
 /* Homepage Styles */
 .home-page {
 	background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
@@ -21,6 +32,9 @@
 	}
 .button{
 	background: none repeat scroll 0 0 #45ac9d;
+	}
+.clearfix {
+	clear:both;
 	}
 
 /* Homepage Blog */
@@ -87,7 +101,53 @@ ul.homepage-featured-work {
 .featured-work img {
 	min-height: 222px;
 	}
-/* Case Studies Page Styles */
+	
+/* Case Studies Landing Page Styles */
+
+aside.case-study-main-sidebar {
+    float: left;
+    padding-right: 20px;
+    margin-top: 70px;
+    font-weight: 300;
+    width: 45%;
+	}
+
+.case-study-main h2 {
+	font-size: 2rem;
+    line-height: 1px;
+}
+
+.case-study-main h5 {
+	font-size: 1rem;
+	font-weight: 300;
+    color: #a6a6a6;
+    line-height: 1px;
+}
+
+.case-study-main h6{
+	font-size: 1rem;
+	font-weight: 300;
+	color:#000;
+    margin-bottom: 20px;
+}
+
+.case-study-main a{
+	font-size: 1rem;
+	font-weight: bold;
+	color:#000;
+    line-height: 1px;
+}
+
+div.case-study-main-img {
+	float:left;
+	margin-top: 70px;
+	width: 45%;	
+}
+div.case-study-img img{
+	padding-bottom: 20px;
+}
+
+/* Single Case Studies Page Styles */
 
 aside.case-study-sidebar {
     float: left;
