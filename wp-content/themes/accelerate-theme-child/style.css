@@ -192,3 +192,33 @@ div.case-study-img {
 div.case-study-img img{
 	padding-bottom: 20px;
 }
+
+/* Contact form page */
+
+#ninja_forms_field_1_div_wrap {
+	padding-right: 20px;
+	}
+
+#ninja_forms_field_1_div_wrap, #ninja_forms_field_2_div_wrap {
+    float: left;
+	width: 50%;
+}
+
+#ninja_forms_field_3_div_wrap {
+    clear: both;
+}
+
+#ninja_forms_field_5 {
+    float: right;
+    padding: 15px 100px;
+    background-color: #45ac9d;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+
+.ninja-forms-required-items {
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-style: italic;
+}
