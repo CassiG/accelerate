@@ -24,6 +24,14 @@
     padding-right: 20px;
 	}
 	
+.float-left {
+	float: left;
+	}
+
+.float-right{
+	float: right;
+	}
+	
 /* Homepage Styles */
 .home-page {
 	background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
@@ -36,6 +44,40 @@
 	}
 .clearfix {
 	clear:both;
+	}
+	
+/* About Page Styles */
+
+.about {
+	background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+	height: 400px;
+	}
+.about-hero {
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+	font-size: 28px;
+	}
+
+.about-page {
+	padding-bottom: 300px;
+	}
+.about-description {
+	float: left;
+    width: 70%;
+	margin-top: -30px;
+	}
+	
+.about-description h3{
+    font-size: 28px!important;
+    text-align: left!important;
+    font-weight: 300!important;
+    line-height: 30px!important;
+	}
+
+aside.float-left.about-img{
+    width: 30%;
+    vertical-align: middle;
 	}
 
 /* Homepage Blog */
